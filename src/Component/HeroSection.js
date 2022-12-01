@@ -3,13 +3,15 @@ import { Hero } from "../assets";
 
 function HeroSection() {
   return (
-    <div className="bg-[#F9FAFB] my-3">
-      <div className="lg:flex lg:items-center mx-3 lg:justify-evenly lg:pt-0 pt-3 ">
+    <div className="pt-[80px] lg:pt-[100px]">
+      <div className="lg:flex lg:items-center mx-5 lg:justify-evenly lg:pt-0 pt-3 ">
         <div className=" flex gap-3 flex-col">
           <h3 className="lg:text-4xl font-bold text-2xl">
             Platfrom lelang photo by
           </h3>
-          <h1 className="lg:text-6xl font-bold text-4xl">Bri</h1>
+          <h1 className="lg:text-6xl font-bold text-4xl uppercase lg:my-2">
+            BRI
+          </h1>
           <p className="text-[#6D7280] text-sm lg:text-base">
             Lorem ipsum dolor sit amet, consectetur <br /> adipiscing elit.
             Egestas at at tristique et. <br /> Eget vestibulum diam convallis
